@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Emeter</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+    <string name="login">Log in</string>
+    <string name="or">OR</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="customer_zone">Customer Zone</string>
+    <string name="meter_number">Meter Number</string>
+    <string name="meter_type">Meter Type</string>
+    <string name="ok">Ok</string>
+    <string name="enter_first_name">Please enter first name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="scan_meter">Scan Meter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_profile">My Profile</string>
+    <string name="receipt_no">Receipt No.</string>
+    <string name="receipt_date_time">Receipt Date/Time</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_phone">Customer Phone</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="scan_your_e_meter">SCAN YOUR E-METER</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="logout">Do you really want to Logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="update">Update</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="manually_reading">Manually Reading</string>
+    <string name="please_enter_your_email_id">Please enter your email Id</string>
+    <string name="submit">Submit</string>
+
+</resources>

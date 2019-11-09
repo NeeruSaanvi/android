@@ -1,0 +1,1 @@
+include ':app', ':abbyy-rtr-sdk-1.0'

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Emeter.iml" filepath="$PROJECT_DIR$/Emeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abbyy-rtr-sdk-1.0/abbyy-rtr-sdk-1.0.iml" filepath="$PROJECT_DIR$/abbyy-rtr-sdk-1.0/abbyy-rtr-sdk-1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/recognitionLanguageSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#00000000"
+        android:gravity="right"
+        android:popupBackground="#BB000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/warningText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left"
+        android:text=""
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/warningText"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text=""
+        android:textColor="#FFFF0000" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+    </WebView>
+
+    <com.pine.emeter.utils.VerticalSeekBar
+        android:id="@+id/seek"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp" />
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#7d010000"
+        android:onClick="onStartButtonClick"
+        android:text="Resume"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+
+    <View
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"
+        android:background="@android:color/holo_green_light"
+        android:visibility="gone" />
+
+
+
+    <Button
+        android:id="@+id/print"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#7d010000"
+        android:text="Print"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="30"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/led"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/flashon" />
+</RelativeLayout>
